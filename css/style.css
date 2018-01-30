@@ -1,0 +1,148 @@
+* {
+  /*border: 1px solid #c00;*/
+}
+
+body {
+  max-width: 1920px;
+  margin: 5% 12% auto;
+  background-color: #DEE9F6;
+}
+
+/* トップ文 */
+.page_top h2 {
+  font: 32px solid;
+  text-align: center;
+}
+
+/* エントリーフォームmargin */
+.entry_form {
+  margin: 80px 0 80px;
+}
+.job_category_item div {
+margin-bottom: 40px;
+}
+
+/* 下部確認部 */
+.confirm {
+  margin-top: 30px;
+}
+.confirm_btn {
+  margin-top: 40px
+}
+.confirm_btn input {
+  display: block;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  background-color: #6698D5;
+  font-size: 18px;
+  color: #EFF5FC;
+}
+.button_end {
+  display: block;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: auto;
+  background-color: #6698D5;
+  font-size: 18px;
+  text-decoration: none;
+  color: #EFF5FC;
+}
+
+/* 項目枠組み */
+.contents {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.contents_topic {
+  display: table-cell;
+  width: 25%;
+  color: #245FB7;
+}
+.contents_item {
+  display: table-cell;
+}
+.input_number input {
+  width: 50px;
+}
+.input_number input:first-child {
+  width: 70px;
+}
+
+/* 入力部装飾 */
+.input_text {
+  background-color: none;
+}
+.radio_btn {
+  margin-right: 10px;
+}
+.text_space {
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.text_hiphen {
+  padding: 0 7px 0 10px;
+}
+.contents_topic_item {
+  /*margin-right: 60px;*/
+}
+
+/* ラジオボタンテーブルレイアウト */
+
+.contents_item_tb {
+  display: table;
+  width: 50%;
+}
+.contents_item_tb p {
+  display: table-cell;
+  width: 40%;
+  table-layout: fixed;
+  margin-right: 0px;
+}
+.contents_item_tb_now {
+  display: table;
+  width: 80%;
+}
+.contents_item_tb_now p {
+  display: table-cell;
+  width: 30%;
+  table-layout: fixed;
+  margin-right: 0px;
+}
+.contents_item_tb_now p:nth-child(2) {
+  display: table-cell;
+  width: 40%;
+  table-layout: fixed;
+  margin-right: 0px;
+}
+
+/* エラー文章装飾 */
+
+.error_m {
+  display: block;
+  margin-top: 5px;
+  color: #FF0000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .contents_topic {
+    display: block;
+    width: 100%;
+  }
+  .contents_item {
+    display: block;
+    width: 100%;
+  }
+  .contents_item_tb {
+    margin-bottom: 22px;
+  }
+  .contents_item_tb_now {
+    margin-bottom: 22px;
+  }
+}

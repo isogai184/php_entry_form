@@ -1,0 +1,34 @@
+.entry_form {
+  margin-top: 40px;
+}
+
+.contents {
+  margin-top: 10px;
+}
+.job_category {
+  margin-bottom: 30px;
+}
+.job_category_item p {
+  margin: 10px 0 10px 0;
+}
+.confirm_btn {
+  display: inline-block;
+}
+.confirm_btn_left {
+  width: 50%;
+
+}
+.confirm_btn_right {
+  width: 50%;
+}
+
+.error_block {
+  box-sizing: border-box;
+  padding: 5% 5%;
+  border: 1px solid #C3C2C2;
+  background-color: #FFFFFF;
+  box-shadow: ;
+}
+.confirm_btn_error {
+  display: block;
+}
